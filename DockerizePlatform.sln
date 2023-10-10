@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C146E9B-E663-4F8A-8418-F11F201E796E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{568133E3-6EE1-4FA1-8AD6-B346A19146C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dockerize.WebApi", "src\Dockerize.WebApi\Dockerize.WebApi.csproj", "{2B4C426F-392B-4B0E-A12A-181BBB749173}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4C426F-392B-4B0E-A12A-181BBB749173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4C426F-392B-4B0E-A12A-181BBB749173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4C426F-392B-4B0E-A12A-181BBB749173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4C426F-392B-4B0E-A12A-181BBB749173}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B4C426F-392B-4B0E-A12A-181BBB749173} = {4C146E9B-E663-4F8A-8418-F11F201E796E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB1F8C9D-4187-48AD-BE76-893661C4EBB7}
+	EndGlobalSection
+EndGlobal
